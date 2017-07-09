@@ -1,0 +1,20 @@
+                import java.util.Scanner;
+                class number
+                    {
+                    	public static void main (String[] args) 
+                    	{
+                    		int j, sum=0;
+                    		Scanner ab=new Scanner(System.in);
+                    		System.out.println("Enter value of N");
+                    		int i=ab.nextInt();
+                    		for (j=0; j<i; j++)
+                    		{
+                    			System.out.println("Enter value of number "+(j+1));
+                    			int a=ab.nextInt();
+                    			sum=sum+a;
+                    		}
+ 
+                    		System.out.println("The sum of the "+i+"natural numbers= "+sum);
+ 
+                    	}
+                    }

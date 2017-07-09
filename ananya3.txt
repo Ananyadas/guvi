@@ -1,0 +1,25 @@
+    import java.util.Scanner;
+            class vowcon
+                    {
+            			public static void main (String[] args) 
+                    	{
+                    		int j, sum=0;
+                    		char a1,a2;
+                    		Scanner ab=new Scanner(System.in);
+                    		System.out.println("Enter a character");
+                    	    char i = ab.next().charAt(0);
+                    		String a="aeiou";
+                    		String b="AEIOU";
+                    		for(j=0; j<5; j++)
+                    		{
+                    			a1= a.charAt(j);
+                    			a2= b.charAt(j);
+                    			if (i==a1||i==a2) sum=1;
+                    		}
+                    		if (sum>0) System.out.println(i+" is a vowel");   
+     
+                       		else 
+                       		System.out.println(i+" is a consonant ");
+     
+                    	}
+                    }   
